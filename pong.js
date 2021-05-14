@@ -25,7 +25,7 @@ class Pong {
     maxScore
     isGameOver = false
 
-    constructor(id, gameType = 2, maxScore = 1, ballXSpeed = 5, ballYSpeed = 3, ballSize = 18, fps = 60, playerHeight = 100, playerSpeed = 20) {
+    constructor(id, gameType = 2, maxScore = 3, ballXSpeed = 5, ballYSpeed = 3, ballSize = 18, fps = 60, playerHeight = 100, playerSpeed = 20) {
         this.id = id
         this.gameType = gameType
         this.maxScore = maxScore
